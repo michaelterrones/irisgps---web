@@ -1,0 +1,41 @@
+{
+	"name": "jmtech/irisgps-web",
+	"description": "Aplicación web del proyecto IrisGPS",
+	"keywords": ["framework", "laravel", "irisgps", "web"],
+	"license": "proprietary",
+	"require": {
+		"laravel/framework": "4.2.*",
+		"way/generators": "~2.0",
+		"fzaninotto/Faker": "^1.4"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/helpers",
+			"app/routes",
+			"app/services",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-update-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}

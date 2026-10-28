@@ -1,0 +1,11 @@
+# get a reference to the schema in the model. This will get the 1st schema in it.
+schema = grt.root.wb.doc.physicalModels[0].catalog.schemata[0]
+# iterate through all tables
+for table in schema.tables:
+    # create a new column object and set its name
+    column = grt.classes.db_mysql_Column()
+    column.name = "subdomain"
+    # add it to the table
+    table.addColumn(column)
+    # set the datatype of the column
+    column.setParseType("VARCHAR (255)", None)

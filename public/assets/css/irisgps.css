@@ -1,0 +1,228 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.iris-background{
+	background-color: #ff;
+}
+
+.iris-background2{
+  background-color: #3949AB;
+  color: white; 
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.iris-background-header{
+	background-color: #3949AB;
+}
+
+.login-box-shadow{
+    position: relative; 
+    background-color: #FFFFFF; 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #3949AB;
+}
+
+input.login:focus {
+    border: 1px solid #3949AB;
+}
+
+.btn-login
+{	
+  color: #fff;
+  background-color: #3949AB;
+  border-color: #303F9F;
+}
+
+.btn-login:hover
+{	
+  color: #fff;
+  background-color: #303F9F;
+}
+
+a {
+	color: #3949AB;
+}
+
+a:focus, a:hover {
+	color: #1A237E;
+}
+
+a.iris-link:focus, a.iris-link:hover {  
+  text-decoration: none;
+}
+
+.page-subtitle {  
+  padding-bottom: 9px;
+  margin: 10px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 525px;
+  background-color: #FFCDD2;
+  margin: 0px;
+  padding: 0px
+}
+
+.navbar-iris {
+  background-color: #3949AB;
+  border-color: #e7e7e7;
+}
+.navbar-iris .navbar-brand {
+  color: #777;
+}
+.navbar-iris .navbar-brand:hover,
+.navbar-iris .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-iris .navbar-text {
+  color: #777;
+}
+.navbar-iris .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-iris .navbar-nav > li > a:hover,
+.navbar-iris .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-iris .navbar-nav > .active > a,
+.navbar-iris .navbar-nav > .active > a:hover,
+.navbar-iris .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-iris .navbar-nav > .disabled > a,
+.navbar-iris .navbar-nav > .disabled > a:hover,
+.navbar-iris .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-iris .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-iris .navbar-toggle:hover,
+.navbar-iris .navbar-toggle:focus {
+  background-color: #fff;
+}
+.navbar-iris .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-iris .navbar-toggle:hover .icon-bar,
+.navbar-iris .navbar-toggle:focus .icon-bar {
+  background-color: #3949AB;
+}
+
+.navbar-iris .navbar-collapse,
+.navbar-iris .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-iris .navbar-nav > .open > a,
+.navbar-iris .navbar-nav > .open > a:hover,
+.navbar-iris .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-iris .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-iris .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-iris .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-iris .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-iris .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-iris .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-iris .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-iris .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-iris .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-iris .navbar-link {
+  color: #777;
+}
+.navbar-iris .navbar-link:hover {
+  color: #333;
+}
+.navbar-iris .btn-link {
+  color: #777;
+}
+.navbar-iris .btn-link:hover,
+.navbar-iris .btn-link:focus {
+  color: #333;
+}
+.navbar-iris .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-iris .btn-link:hover,
+.navbar-iris .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-iris .btn-link:focus {
+  color: #ccc;
+}
+.navbar-iris a.menu-link {
+  color: white;
+}
+.navbar-iris .dropdown-toggle:hover, .navbar-iris .dropdown-toggle:focus {
+  background-color: #1A237E;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: #1A237E;
+  border-color: #337ab7;
+}
+.navbar-brand{
+  padding-top: 5px;
+}
+
+#page-wrapper{
+  padding-top: 0px;
+}
+
+.page-header{
+  margin-top: 20px;
+}
+
+.iris-description-label {
+  font-weight: 600;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.iris-description-label2 {
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.alert{
+  margin-top: 20px;
+}
+
+.panel-iris {
+  border-color: #1565C0;
+  color: #1565C0;
+}
+
+.panel-iris > a {
+  color: #1565C0;
+}
+
+.password-reminder-link {
+  padding-top: 10px;
+}
+
+#password-reset {
+  padding-top: 100px;
+}

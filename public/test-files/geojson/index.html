@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div id="screen">
+		
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="http://jmwebserver.ddns.net/test-files/geojson/peru.geojson"></script>
+
+	<script>
+		$.each(geojson.features, function(i, gj) {
+			name = gj.properties.name;
+			coordinates = gj.geometry.coordinates;
+			polygon = '';
+			console.log(coordinates);
+
+			console.log(i+' '+name);
+			console.log(polygon);
+			$( "#screen" ).append( "<p>Polygon::create['name'=>'"+name+"', 'coordinates'=>'"+coordinates+"'];</p><br>" );
+		})
+	</script>
+</body>
+</html>
